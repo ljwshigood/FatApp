@@ -8,7 +8,8 @@
     <RelativeLayout
         android:id="@+id/ll_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
         android:layout_marginTop="10dp"
         android:orientation="vertical" >
 
@@ -46,8 +47,8 @@
     <LinearLayout
         android:id="@+id/ll_status"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
         android:gravity="center"
         android:orientation="horizontal" >
 
@@ -77,14 +78,14 @@
     <LinearLayout
         android:id="@+id/ll_people_status"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
         android:gravity="center"
         android:orientation="vertical" >
 
         <LinearLayout
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
             android:background="@drawable/bg_kg_bcir_max"
             android:gravity="center"
             android:orientation="vertical" >
@@ -140,8 +141,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
         android:orientation="vertical" >
 
         <LinearLayout
