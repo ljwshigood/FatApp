@@ -43,7 +43,7 @@
             android:textSize="@dimen/text_18" />
     </RelativeLayout>
 
-    <com.wearme.zfc.widget.ClipImageLayout
+    <com.wearme.fat.widget.ClipImageLayout
         android:id="@+id/src_pic"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

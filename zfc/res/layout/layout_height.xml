@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="horizontal" >
 
-    <com.wearme.zfc.wheelview.WheelView
+    <com.wearme.fat.wheelview.WheelView
         android:id="@+id/height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1" />
 
-    <com.wearme.zfc.wheelview.WheelView
+    <com.wearme.fat.wheelview.WheelView
         android:id="@+id/danwei"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

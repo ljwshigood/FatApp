@@ -28,7 +28,7 @@
             android:gravity="center"
             android:orientation="horizontal" >
 
-            <com.wearme.zfc.widget.RoundImageView
+            <com.wearme.fat.widget.RoundImageView
                 android:id="@+id/iv_photo"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -161,7 +161,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <com.wearme.zfc.widget.CircleProgressBar
+                    <com.wearme.fat.widget.CircleProgressBar
                         android:id="@+id/dp_fat"
                         custom:style="STROKE"
                         android:layout_width="80dp"
@@ -211,7 +211,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <com.wearme.zfc.widget.CircleProgressBar
+                    <com.wearme.fat.widget.CircleProgressBar
                         android:id="@+id/db_calorie"
                         custom:style="STROKE"
                         android:layout_width="80dp"
@@ -261,7 +261,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <com.wearme.zfc.widget.CircleProgressBar
+                    <com.wearme.fat.widget.CircleProgressBar
                         android:id="@+id/dp_water"
                         custom:style="STROKE"
                         android:layout_width="80dp"
@@ -318,7 +318,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <com.wearme.zfc.widget.CircleProgressBar
+                    <com.wearme.fat.widget.CircleProgressBar
                         android:id="@+id/dp_muscle"
                         custom:style="STROKE"
                         android:layout_width="80dp"
@@ -368,7 +368,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <com.wearme.zfc.widget.CircleProgressBar
+                    <com.wearme.fat.widget.CircleProgressBar
                         android:id="@+id/dp_visceralfat"
                         custom:style="STROKE"
                         android:layout_width="80dp"
@@ -418,7 +418,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <com.wearme.zfc.widget.CircleProgressBar
+                    <com.wearme.fat.widget.CircleProgressBar
                         android:id="@+id/dp_bone"
                         custom:style="STROKE"
                         android:layout_width="80dp"

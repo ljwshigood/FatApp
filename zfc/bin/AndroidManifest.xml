@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wearme.zfc"
+    package="com.wearme.fat"
     android:versionCode="2"
     android:versionName="1.1" >
 
@@ -32,7 +32,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:name="com.wearme.zfc.ui.WelcomeActivity"
+            android:name="com.wearme.fat.ui.WelcomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,25 +40,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.wearme.zfc.ui.ChartActivity" >
+        <activity android:name="com.wearme.fat.ui.ChartActivity" >
         </activity>
-        <activity android:name="com.wearme.zfc.ui.ClipPictureActivity" >
+        <activity android:name="com.wearme.fat.ui.ClipPictureActivity" >
         </activity>
         <activity
-            android:name="com.wearme.zfc.ui.RegisterActivity"
+            android:name="com.wearme.fat.ui.RegisterActivity"
             android:windowSoftInputMode="stateHidden|adjustResize" >
         </activity>
-        <activity android:name="com.wearme.zfc.ui.MainActivity" >
+        <activity android:name="com.wearme.fat.ui.MainActivity" >
         </activity>
-        <activity android:name="com.wearme.zfc.ui.VersionActivity" >
+        <activity android:name="com.wearme.fat.ui.VersionActivity" >
         </activity>
-        <activity android:name="com.wearme.zfc.ui.InfomationActivity" >
+        <activity android:name="com.wearme.fat.ui.InfomationActivity" >
         </activity>
-        <activity android:name="com.wearme.zfc.ui.GalleryActivity" >
+        <activity android:name="com.wearme.fat.ui.GalleryActivity" >
         </activity>
         
          <service
-            android:name="com.wearme.zfc.blue.BluetoothLeService"
+            android:name="com.wearme.fat.blue.BluetoothLeService"
             android:enabled="true" />
          
     </application>

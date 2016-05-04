@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:misc="http://schemas.android.com/apk/res/com.wearme.zfc"
+    xmlns:misc="http://schemas.android.com/apk/res/com.wearme.fat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/scale_value_bg"
@@ -59,7 +59,7 @@
                     android:gravity="center"
                     android:orientation="vertical" >
 
-                    <com.wearme.zfc.widget.RoundImageView
+                    <com.wearme.fat.widget.RoundImageView
                         android:id="@+id/iv_photo"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
@@ -236,7 +236,7 @@
                     android:layout_height="match_parent"
                     android:scrollbars="@null" >
 
-                    <com.wearme.zfc.widget.LineView
+                    <com.wearme.fat.widget.LineView
                         android:id="@+id/line_view"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent" />
